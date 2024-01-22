@@ -44,6 +44,10 @@ gem "bootsnap", "~>1.12.0", require: false
 
 # Use Sass to process CSS
 # -----------------------------------------------------
+# tstam - added bootstrap-sass to be compatible with tutorial Gemfile
+# -----------------------------------------------------
+gem "bootstrap-sass", "3.4.1"
+# -----------------------------------------------------
 # tstam - un commented this gem to be compatible with tutorial Gemfile
 # -----------------------------------------------------
 gem "sassc-rails", "~> 2.1.2"
