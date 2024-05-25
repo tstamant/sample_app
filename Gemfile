@@ -9,6 +9,13 @@ gem "rails", "~> 7.0.8"
 # need the bcrypt gem
 gem "bcrypt", "~> 3.1.18"
 
+# To be able to create test data (usually onlt used in Test but for Sample_app in prodiction too)
+gem "faker", "~> 2.21.0"
+
+# To allow Pagination of long list
+gem "will_paginate", "~> 3.3.1"
+gem "bootstrap-will_paginate", "~> 1.0.0"
+
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 
