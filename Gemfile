@@ -7,7 +7,7 @@ ruby "3.1.4"
 gem "rails", "~> 7.0.8"
 
 # need the bcrypt gem
-gem "bcrypt", "~> 3.1.18"
+gem "bcrypt", 	"~> 3.1.18"
 
 # To be able to create test data (usually onlt used in Test but for Sample_app in prodiction too)
 gem "faker", "~> 2.21.0"
